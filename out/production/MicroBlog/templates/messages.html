@@ -3,6 +3,14 @@
 <head>
     <style>
 
+        body {
+        width: 80%;
+        padding: 75px 75px 75px 75px;
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        }
+
         #logout {
         float: right;
         clear:left;
@@ -10,20 +18,24 @@
         padding: 5px
         }
 
-        #formbox {
+        #container {
+        width: 80%;
+        padding: 75px 75px 75px 75px;
+        margin: auto;
+        text-align: center;
+        display: inline-block;
         clear: both;
         overflow: auto;
-        width 60%;
         }
 
-        ul {
+        ol {
         background: #3399ff;
         padding: 20px;
         width: 75%;
         }
 
 
-        ul li {
+        ol li {
         background: #cce5ff;
         margin: 10px;
         padding: 5px;
@@ -34,12 +46,12 @@
 </head>
 <body>
 
-<div id="formbox">
-
 <form id="logout" action="log-out" method="post" >
     <button type="submit">Logout</button>
 </form>
 
+
+<div id="container">
 <form action="create-message" method="post">
     <input type="text" name="messageInput" placeholder="Enter Message" size="50"> </input>
     <button type="submit">Submit</button>
@@ -53,16 +65,16 @@
 <form action="edit-message" method="post">
     <input type="number" name="editNumberInput" placeholder="Message #" />
     <input type="text" name="editMessageInput" placeholder="Enter Message" size="50" />
-    <button type="submit" />
+    <button type="submit">Edit</button>
 </form>
-</div>
 
 <h3>Messages by {{name}}</h3>
-<ul>
+<ol>
     {{#messages}}
     <li>{{message}}</li>
     {{/messages}}
-</ul>
+</ol>
+</div>
 
 </body>
 </html>

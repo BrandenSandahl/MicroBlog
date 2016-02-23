@@ -7,16 +7,11 @@ import java.util.HashMap;
 
 public class Main {
 
-    //static HashMap<String , User> user = null; //just a temp var to hold the current user that is accessing system
-
     static HashMap<String, User> userMap = new HashMap();
     static boolean passMisMatch = false;
 
     public static void main(String[] args) {
         Spark.init(); //starting Spark
-
-
-       // HashMap<String, User> userMap = new HashMap();  //hashmap that will contain all the various users (this would be pulled from DB I guess)
 
         userMap.put("koko", new User("koko", "pelli"));  //adding in a user to verify
 
@@ -30,10 +25,9 @@ public class Main {
 
 
                     if (user != null) {
-                      //  m.put("name", user.name);  //if the user has entered something then add to my hashmap
-                       // m.put("messages", user.messageList); //i think this is just a way for mustache to display all this?
-
-                        return new ModelAndView(user, "messages.html");  //can also just pass the user here
+                       m.put("name", user.name);  //if the user has entered something then add to my hashmap
+                       m.put("messages", user.messageList); //i think this is just a way for mustache to display all this?
+                        return new ModelAndView(m, "messages.html");  //can also just pass the user here
                     } else {
                         m.put("passMisMatch", passMisMatch);
                         return new ModelAndView(m, "index.html");  //can also just pass the user here
@@ -67,11 +61,7 @@ public class Main {
                         response.redirect("/");
                         return "";
                     } else {  //otherwise just go back to index because the user entered bad pass
-                        //create a session for the bad pass user
-                       // Session session = request.session();
-                       // session.attribute("userName", name);
 
-                        //userMap.get(name).passMisMatch = true;
                         passMisMatch = true;
 
                         response.redirect("/");
@@ -91,7 +81,36 @@ public class Main {
                     user.messageList.add(m);  //add to the current user
                     response.redirect("/");
                     return "";
-                }));
+                })
+        );
+
+        Spark.post(
+                "delete-message",
+                ((request1, response1) -> {
+                    //reference to user
+                    User user = getUserFromSession(request1.session());
+
+                    int index = (Integer.parseInt(request1.queryParams("deleteInput")) - 1 );  //index is zero-indexed
+                    user.messageList.remove(index); //this should work to delete the message
+                    response1.redirect("/");
+                    return "";
+                })
+        );
+
+        Spark.post(
+                "edit-message",
+                ((request1, response1) -> {
+                    //reference to user
+                    User user = getUserFromSession(request1.session());
+
+                    int index = (Integer.parseInt(request1.queryParams("editNumberInput")) - 1 ); //get index
+                    Messages m = new Messages(request1.queryParams("editMessageInput")); //get new message object
+
+                    user.messageList.set(index, m); //replace the old object with the new object.
+                    response1.redirect("/");
+                    return "";
+                })
+        );
 
         Spark.post(
                 "log-out",
