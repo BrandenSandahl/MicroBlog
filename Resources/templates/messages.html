@@ -2,6 +2,21 @@
 <html lang="en">
 <head>
     <style>
+        form {
+        width: 60%
+        }
+
+        textarea {
+        width: 75%;
+        height: 100px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+        }
+
         ul {
         background: #3399ff;
         padding: 20px;
@@ -21,13 +36,11 @@
 <body>
 
 <form action="create-message" method="post">
-    <input type="text" name="messageInput" placeholder="Enter Message" />
+    <textarea name="messageInput" placeholder="Enter Message"> </textarea>
     <button type="submit">Submit</button>
 </form>
-Messages by {{name}}
 
-
-<br />
+<h3>Messages by {{name}}</h3>
 <ul>
     {{#messages}}
     <li>{{message}}</li>
