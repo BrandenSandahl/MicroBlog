@@ -23,9 +23,9 @@ public class Main {
                     if (user != null) {
                         m.put("name", user.name);  //if the user has entered something then add to my hashmap
                         m.put("messages", user.messageList); //i think this is just a way for mustache to display all this?
-                        return new ModelAndView(m, "messages.html");
+                        return new ModelAndView(m, "messages.html");  //can also just pass the user here
                     } else {
-                        return new ModelAndView(m, "index.html");
+                        return new ModelAndView(m, "index.html");  //can also just pass the user here
                     }
                 }),
                 new MustacheTemplateEngine()
