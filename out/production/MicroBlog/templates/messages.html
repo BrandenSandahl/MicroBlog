@@ -3,13 +3,6 @@
 <head>
     <style>
 
-        body {
-        width: 80%;
-        padding: 75px 75px 75px 75px;
-        margin: auto;
-        text-align: center;
-        display: inline-block;
-        }
 
         #logout {
         float: right;
@@ -22,16 +15,32 @@
         width: 80%;
         padding: 75px 75px 75px 75px;
         margin: auto;
-        text-align: center;
+        text-align: left;
         display: inline-block;
         clear: both;
         overflow: auto;
         }
 
+        fieldset {
+        background: #f2f1ef
+        }
+
+        input {
+        padding: 10px;
+        border: solid 1px #dcdcdc;
+        transition: box-shadow 0.3s, border 0.3s;
+        }
+
+        input:focus,
+        input.focus {
+        border: solid 1px #707070;
+        box-shadow: 0 0 5px 1px #969696;
+        }
+
+
         ol {
-        background: #3399ff;
+        background: #9eb9d3;
         padding: 20px;
-        width: 75%;
         }
 
 
@@ -53,19 +62,28 @@
 
 <div id="container">
 <form action="create-message" method="post">
+    <fieldset>
+        <legend>Create a new post</legend>
     <input type="text" name="messageInput" placeholder="Enter Message" size="50"> </input>
     <button type="submit">Submit</button>
+    </fieldset>
 </form>
 
 <form action="delete-message" method="post">
+    <fieldset>
+        <legend>Delete a message</legend>
     <input type="number" name="deleteInput" placeholder="Message #" />
     <button type="submit">Delete</button>
+    </fieldset>
 </form>
 
 <form action="edit-message" method="post">
+    <fieldset>
+        <legend>Edit a message</legend>
     <input type="number" name="editNumberInput" placeholder="Message #" />
     <input type="text" name="editMessageInput" placeholder="Enter Message" size="50" />
     <button type="submit">Edit</button>
+    </fieldset>
 </form>
 
 <h3>Messages by {{name}}</h3>

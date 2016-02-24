@@ -5,11 +5,22 @@ package com.Sixtel;
  */
 public class Messages {
 
-    String message;
+    private String message;
     //int id;
 
 
+    public Messages() {
+    }
+
     public Messages(String message) {
+        setMessage(message);
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
         this.message = message;
     }
 }

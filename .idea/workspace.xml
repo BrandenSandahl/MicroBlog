@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be027b80-f5d1-476d-ac19-c73bc131d604" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/Main.class" afterPath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_jodd_jodd_json_3_6_7.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/Main.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/Messages.class" afterPath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/Messages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/User.class" afterPath="$PROJECT_DIR$/out/production/MicroBlog/com/Sixtel/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/templates/messages.html" afterPath="$PROJECT_DIR$/Resources/templates/messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MicroBlog.iml" afterPath="$PROJECT_DIR$/MicroBlog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MicroBlog/templates/messages.html" afterPath="$PROJECT_DIR$/out/production/MicroBlog/templates/messages.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Sixtel/Main.java" afterPath="$PROJECT_DIR$/src/com/Sixtel/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Sixtel/Messages.java" afterPath="$PROJECT_DIR$/src/com/Sixtel/Messages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Sixtel/User.java" afterPath="$PROJECT_DIR$/src/com/Sixtel/User.java" />
     </list>
     <ignored path="MicroBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,13 +33,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Sixtel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+            <state vertical-scroll-proportion="-0.6048387">
+              <caret line="52" column="84" selection-start-line="52" selection-start-column="84" selection-end-line="52" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Sixtel/JsonWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,9 +66,14 @@
         <entry file="file://$PROJECT_DIR$/src/com/Sixtel/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,17 +83,34 @@
         <entry file="file://$PROJECT_DIR$/src/com/Sixtel/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding />
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/templates/messages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8262712">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state vertical-scroll-proportion="-16.25">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,8 +119,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="10" selection-end-column="9" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -103,11 +148,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/Sixtel/Users.java" />
+        <option value="$PROJECT_DIR$/Resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/Resources/templates/messages.html" />
+        <option value="$PROJECT_DIR$/src/com/Sixtel/jsonWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/Sixtel/JsonWrapper.java" />
         <option value="$PROJECT_DIR$/src/com/Sixtel/Messages.java" />
         <option value="$PROJECT_DIR$/src/com/Sixtel/User.java" />
-        <option value="$PROJECT_DIR$/Resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/microMessages.json" />
         <option value="$PROJECT_DIR$/src/com/Sixtel/Main.java" />
-        <option value="$PROJECT_DIR$/Resources/templates/messages.html" />
       </list>
     </option>
   </component>
@@ -213,11 +261,11 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Countries" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -584,7 +632,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -608,7 +656,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -617,7 +670,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,7 +722,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,7 +736,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,7 +788,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -731,7 +828,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -828,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar!/org/slf4j/impl/SimpleLogger.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.0">
@@ -871,47 +977,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sixtel/User.java">
+    <entry file="file://$PROJECT_DIR$/Resources/templates/messages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="10" selection-end-column="9" />
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sixtel/Main.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-json/3.6.7/jodd-json-3.6.7.jar!/jodd/json/JsonSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.65217394">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Sixtel/Messages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/templates/messages.html">
+    <entry file="file://$PROJECT_DIR$/src/com/Sixtel/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8262712">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sixtel/JsonWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="473" column="0" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sixtel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6048387">
+          <caret line="52" column="84" selection-start-line="52" selection-start-column="84" selection-end-line="52" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -972,6 +1134,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -979,7 +1142,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.sparkjava:spark-template-mustache:2.3</last-edited>
+          <last-edited>org.jodd:jodd-json:3.6.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
