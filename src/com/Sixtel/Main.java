@@ -48,7 +48,7 @@ public class Main {
                     String pass = request.queryParams("passwordInput");
 
                    try {
-                       userMap = readfromJson(); //run a function to populate the map from a file
+                       userMap = readFromJson(); //run a function to populate the map from a file
                    } catch (Exception e) {
                         //this can just continue on if the file doesn't exist. NBD.
                    }
@@ -156,7 +156,7 @@ public class Main {
         fw.close();
     }
 
-    static HashMap<String, User> readfromJson() throws FileNotFoundException {
+    static HashMap<String, User> readFromJson() throws FileNotFoundException {
 
 
         JsonParser parser = new JsonParser();
